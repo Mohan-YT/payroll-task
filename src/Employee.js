@@ -32,7 +32,7 @@ export default function Employee() {
                         <option value="">HR Executive</option>
                     </select><span>|</span>
                    <div className='d-flex justify-content-center align-items-center'>
-                        <a href="" className='text-primary d-flex'><span className='border border-primary border-1'><i class="bi bi-three-dots text-primary"></i></span> More Filters</a>
+                        <p className='text-primary d-flex'><span className='border border-primary border-1'><i class="bi bi-three-dots text-primary"></i></span> More Filters</p>
                    </div>
              </div>
              <button className=' text-primary d-flex justify-content-center align-items-center'><i class="bi bi-x"></i></button>
