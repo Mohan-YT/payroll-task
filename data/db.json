@@ -1,0 +1,25 @@
+{
+  "datas": [
+    {
+      "id": "11",
+      "name": "S.MOHAN PRASANTH",
+      "email": "mohanprasanth3883@gmail.com",
+      "department": "HR",
+      "status": "Active"
+    },
+    {
+      "id": "111",
+      "name": "saran",
+      "email": "saran@gmail.com",
+      "department": "IT",
+      "status": "Inactive"
+    },
+    {
+      "id": "1111",
+      "name": "gokul",
+      "email": "gokul@gmail.com",
+      "department": "IT",
+      "status": "Active"
+    }
+  ]
+}

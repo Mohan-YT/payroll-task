@@ -1,0 +1,41 @@
+.Menulist{
+    height: 90vh;
+    width: 20%;
+    background-color: rgba(128, 128, 128, 0.155);
+    overflow-y: scroll;
+    .lists{
+        gap: 1.1em;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.3em;
+            padding: 0.2em;
+        }
+        a.active{
+            background-color: blue;
+            color: white;
+            font-weight: 500;
+            border-radius:5px;
+        }
+    }
+    
+}
+@media screen and (max-width:525px) {
+    .menubar{
+        .add-div{
+            display: block;
+        }
+
+        
+    }
+    .Menulist{
+        width: 30%;
+        height: 80vh;
+        .lists{
+            gap: 0.7em;
+        }
+        div a,p{
+            font-size: 1em !important;
+        }
+    }
+}

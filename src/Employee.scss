@@ -1,0 +1,153 @@
+.employee{
+    width: 80% ;
+    height: 90vh; 
+    border-bottom: 1px solid black;
+
+
+    .filter{
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.155);
+        .filter-item{
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            color: gray;
+            select{
+                border: none;
+                outline: none;
+                color: gray;
+                background-color: transparent;
+            }
+            span{
+                margin: 0.5em;
+                color: rgb(206, 206, 206);
+            }
+            a{
+                text-decoration: none;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                span{
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 17px;
+                    height: 17px;
+                    border-radius: 50%;
+                }
+            }
+
+        }
+        button{
+            border: none;
+            outline: none;
+            border-radius: 50%;
+            width: 18px;
+            height: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:rgba(0, 145, 255, 0.199);
+        }
+       
+    }
+}
+ //Menubar Page
+ .menubar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    .select{
+        border:none;
+        outline: none;
+        background-color: transparent;
+        font-size: 1.5em;
+    }
+    
+ }
+
+ //Employee lists
+.emplist{
+    height: 78vh;
+    overflow-y: auto;
+    position: relative;
+    .header{
+        border-bottom: 1px solid black;
+        min-height: 8vh;
+        position: sticky;
+        top: 0;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                text-align: center;
+            }
+        }
+        input{
+            width: 1.2em;
+            height: 1.2em;
+        }
+    }
+    .list-box{
+        height: 68vh;
+        overflow-y:auto ;
+    }
+    .content{
+        border-bottom: 1px solid black;
+        min-height: 8vh;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                text-align: start;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            input{
+                width: 1em;
+                height: 1em;
+            }
+        }
+    }
+    label i{
+        font-size: 4em;
+        color: rgb(157, 156, 156);
+    }
+}
+@media screen and (max-width:525px) {
+    .employee{
+        width: 70%;
+        .filter{
+            display: none;
+        }
+    }
+    
+    .emplist{
+        .header{
+            div{
+                display: none;
+            }
+            .emp-name{
+                display: block;
+            }
+        }
+        .content{
+            div{
+                display: none;
+            }
+            .emp-name{
+                display: block;
+            }
+        }
+    }
+}
+

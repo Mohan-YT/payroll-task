@@ -1,0 +1,45 @@
+.addemp{
+    width: 80%;
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        text-align: center;
+    }
+    div{
+        width: 70%;
+        form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input,select{
+            border: 1px solid gray;
+        }
+        .btn{
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            font-weight: 600;
+            font-size: 24px;
+            width: 50%;
+            margin-top: 1em;
+        }
+       
+        }
+    }
+}
+@media screen and (max-width:525px) {
+    .addemp{
+        div{
+            width: 90%;
+        }
+        .btn{
+            font-size: 1em !important;
+            width: 80% !important;
+            margin-top: 0.2em !important;
+        }
+    }
+}
